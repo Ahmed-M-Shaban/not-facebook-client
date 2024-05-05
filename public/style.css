@@ -1,0 +1,28 @@
+:root {
+  --main-color: #0a63f6;
+  --back-ground-color: #f0f2f5;
+  --white-color: #fcfdfd;
+}
+
+* {
+  margin: 0;
+  font-family: "Roboto", system-ui, "-apple-system", "BlinkMacSystemFont", "Segoe UI", sans-serif;
+}
+
+body {
+  background-color: var(--back-ground-color);
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+::-webkit-scrollbar-track {
+  border-radius: 15px;
+  margin: 8px 0px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: rgb(180, 180, 180);
+  border-radius: 15px;
+}

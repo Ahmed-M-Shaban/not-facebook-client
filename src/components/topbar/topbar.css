@@ -1,0 +1,109 @@
+.topbarContainer {
+    height: 75px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    background-color: var(--back-ground-color);
+    z-index: 9999;
+    box-shadow: 0px 4px 12px rgba(193, 193, 193, 0.5) ;
+}
+
+/* Top Bar Left */
+.topbarLeft {
+    flex: 3;
+}
+
+.topbarLeft .logo {
+    font-size: 24px;
+    font-weight: bold;
+    margin-left: 24px;
+    color: var(--main-color);
+    cursor: pointer;
+}
+
+/* Top Bar Center */
+.topbarCenter {
+    flex: 5;
+}
+
+.topbarCenter .searchbar {
+    display: flex;
+    align-items: center;
+    background-color: #fcfdfd;
+    height: 50px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 12px rgba(193, 193, 193, 0.5) ;
+    padding: 0px 16px;
+}
+
+.topbarCenter .searchbar .searchIcon {
+    font-size: 28px !important;
+    color: #909090;
+    margin-right: 12px;
+}
+
+.topbarCenter .searchbar input.searchInput {
+    border: none;
+    outline: none;
+    color: black;
+    font-size: 14px;
+    width: 100%;
+}
+
+/* Top Bar Right */
+.topbarRight {
+    flex: 4;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.topbarRight .topbarLinks {
+    display: flex;
+}
+
+.topbarRight .topbarLink {
+    margin-right: 10px;
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--main-color);
+    cursor: pointer;
+}
+
+.topbarRight .topbarIcons {
+    display: flex;
+}
+
+.topbarRight .topbarIconItem {
+    position: relative;
+    cursor: pointer;
+    margin-right: 15px;
+    width: 26px !important;
+}
+
+.topbarRight .topbarIconItem .topbarIconBadge {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: red;
+    color: white;
+    position: absolute;
+    top: -5px;
+    right: -12px;
+    font-size: 10px;
+    font-weight: 900;
+}
+
+.topbarRight .topbarImg {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    object-fit: cover;
+    cursor: pointer;
+    margin-bottom: 5px;
+}
